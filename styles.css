@@ -1,0 +1,36 @@
+body {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+}
+
+button {
+    background-color: #EDF12B;
+    padding: 12px 24px 12px 24px;
+    border: none;
+    border-radius: 4px;
+    transition: 250ms;
+}
+
+#appWrap {
+    padding: 80px;
+    border: palegreen solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #EDF12B;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #FAFF00;
+    cursor: pointer;
+    box-shadow: 0px 6px 18px rgba(238, 233, 123, 0.69)
+}
