@@ -34,3 +34,7 @@ button:hover {
     cursor: pointer;
     box-shadow: 0px 6px 18px rgba(238, 233, 123, 0.69)
 }
+
+#input {
+    margin-bottom: 8px;
+}

@@ -1,13 +1,10 @@
 const button = document.querySelector('button');
 const nameContainer = document.querySelector('#nameContainer');
-
-function logger() {
-    console.log('Button Clicked');
-}
+const input = document.querySelector('#input');
 
 button.addEventListener('click', () => {
     axios
-        .get('https://swapi.dev/api/planets/2/')
+        .get(`https://swapi.dev/api/planets/${input.value}/`)
         .then(function (res) {
             let residentsArray = res.data.residents;
             for (let i = 0; i < residentsArray.length; i++) {
